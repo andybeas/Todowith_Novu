@@ -1,0 +1,70 @@
+.parent {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+.headers {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.headers h1 {
+  margin-bottom: 0;
+}
+
+.todo_wrapper {
+  background-color: white;
+  padding: 2em;
+  border-radius: 2em;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid rgb(86, 86, 255);
+  margin: 10px;
+
+}
+
+input:focus {
+  outline: none;
+}
+
+.addButton {
+  color: white;
+  background: #7793ff;
+  border: none;
+  padding: 6px 12px 6px 12px;
+  border-radius: 50%;
+  font-size: larger;
+  transition: 5ms;
+}
+
+
+.addButton:hover {
+  background: #496eff;
+  cursor: pointer;
+}
+
+
+.todo_container {
+  height: 65vh;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.todo {
+  margin-bottom: 12px;
+  padding: 1px 10px 0 10px;
+  border-radius: 12px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.todo_email {
+  position: relative;
+  bottom: 10px;
+  color: #2854cbd1;
+}
