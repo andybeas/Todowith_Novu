@@ -64,7 +64,8 @@ function App() {
 
       <div className='headers'>
         <h1>NotifyTodo</h1>
-        <div>Get notified about the latest updates and manage your work efficiently.</div>
+        <div>
+          Manage your team efficiently by notifying workers about the latest updates/tasks through email notifications.</div>
       </div>
 
       <div className="todo_wrapper">
