@@ -8,7 +8,7 @@ function App() {
   const [email, setEmail] = useState("")
   const [todo, setTodo] = useState([])
 
-  const url = "http://localhost:5000/"
+  const url = "http://localhost:8000/"
 
   useEffect(() => {
 
